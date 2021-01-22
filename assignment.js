@@ -1,5 +1,5 @@
 // https://github.com/mithunbiswasbu92/assignment-03
-//assignment first problem solved. 
+//first problem solved. 
 //we know 1 kilometer = 1000 meter. 
 function kilometerToMeter(kilometer){
     var meter = kilometer * 1000;
@@ -9,7 +9,7 @@ function kilometerToMeter(kilometer){
 var result = kilometerToMeter(3);
 console.log(result);
 
-//assignment second problem solved.
+// second problem solved.
 function budgetCalculator(watch, phone, laptop){
 
     var watchPrice = 50;
@@ -25,10 +25,10 @@ function budgetCalculator(watch, phone, laptop){
     return totalPrice;
 }
 
-var totalCost = budgetCalculator(5, 3, 2);
+var totalCost = budgetCalculator(7, 4, 1);
 console.log(totalCost);
 
-//tird problem solved!
+//third problem solved!
 function hotelCost(days){
     if(10 >= days){
         var shortDays = days * 100; 
@@ -46,7 +46,7 @@ function hotelCost(days){
     };
 }
 
- var cost = hotelCost(150);
+ var cost = hotelCost(50);
  console.log(cost);
 
  //Forth problem solved!
