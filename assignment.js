@@ -7,7 +7,6 @@ function kilometerToMeter(kilometer){
 }
 
 var result = kilometerToMeter(3);
-console.log(result);
 
 // second problem solved.
 function budgetCalculator(watch, phone, laptop){
@@ -26,7 +25,6 @@ function budgetCalculator(watch, phone, laptop){
 }
 
 var totalCost = budgetCalculator(7, 4, 1);
-console.log(totalCost);
 
 //third problem solved!
 function hotelCost(days){
@@ -47,7 +45,6 @@ function hotelCost(days){
 }
 
  var cost = hotelCost(50);
- console.log(cost);
 
  //Forth problem solved!
 
@@ -64,4 +61,3 @@ function megaFriend(name){
 }  
 var frdName = ['Rakib', 'Antu', 'Sumon', 'Jui', 'Monirul', 'Shakib'];
 var bigName = megaFriend(frdName);
-console.log(bigName);
